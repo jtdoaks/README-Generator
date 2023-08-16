@@ -45,6 +45,7 @@ ${data.tests}
 ${data.license}
 
 ## Questions
+Use the following information to contact this application's creator with more questions.
 ${data.gitHubLink}
 ${data.email}
 `
