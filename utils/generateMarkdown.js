@@ -45,7 +45,8 @@ ${data.tests}
 ${data.license}
 
 ## Questions
-${data.questions}
+${data.gitHubLink}
+${data.email}
 `
 
 }

@@ -24,7 +24,6 @@ async function askQuestions() {
             type: 'input',
             name: 'usage',
             message: "Provide examples for use of your application.",
-            // user inputs screenshots?
           },
         {
             type: 'input',
@@ -49,8 +48,13 @@ async function askQuestions() {
           },
         {
             type: 'input',
-            name: 'questions',
-            message: "Add your Github rofile and email address so users can reach you with additional questions.",
+            name: 'gitHubLink',
+            message: "Add your Github profile.",
+          },
+        {
+            type: 'input',
+            name: 'email',
+            message: "Add your email so users can reach you with additional questions.",
           },
     ])
     console.log(response);
@@ -70,20 +74,3 @@ function init() {
 }
 init()
 
-// `
-// ## Table of Contents
-// // click on the links in the table of contents and taken to the corresponding section of the readme
-
-
-
-
-
-
-
-
-
-
-
-// [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-//             [![License](https://img.shields.io/badge/License-EPL_1.0-red.svg)](https://opensource.org/licenses/EPL-1.0),
-//             [![License: Hippocratic 3.0](https://img.shields.io/badge/License-Hippocratic_3.0-lightgrey.svg)](https://firstdonoharm.dev),
